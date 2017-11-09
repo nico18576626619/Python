@@ -30,6 +30,8 @@ class CountDown:
 
 
 if __name__=='__main__':
+    c=CountDown(30)
+    print(type(c))
     for i in CountDown(30):
         print(i)
 

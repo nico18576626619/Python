@@ -19,11 +19,16 @@ def manual_iter():
 
 if __name__=='__main__':
     # manual_iter()
-    items = [1, 2, 3, 4]
-    it = iter(items)
-    print(next(it))
-    print(next(it))
-    print(next(it))
-    print(next(it))
-    print(next(it))
+
+
+    with open('text.txt') as f:
+        for i in f:
+            print(i,end='')
+    # items = [1, 2, 3, 4]
+    # it = iter(items)
+    # print(next(it))
+    # print(next(it))
+    # print(next(it))
+    # print(next(it))
+    # print(next(it))
     
